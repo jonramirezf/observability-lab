@@ -56,7 +56,7 @@ cover/
 *.pot
 
 # Django stuff:
-*.log
+
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
@@ -212,6 +212,27 @@ tempCodeRunnerFile.py
 # Marimo
 marimo/_static/
 marimo/_lsp/
+
+# Observability Lab - secrets and local configuration
+
+.env.*
+!.env.example
+
+secrets/
+credentials*
+*.pem
+*.key
+
+# AWS credentials
+.aws/
+
+# Terraform local state
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Docker local overrides
+docker-compose.override.yml
 __marimo__/
 
 # Streamlit
