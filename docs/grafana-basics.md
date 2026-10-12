@@ -29,3 +29,10 @@ docker compose up -d grafana
 Grafana ejecutándose correctamente en Docker:
 
 ![Grafana running](images/grafana-running.png)
+
+## Panel de Memoria RAM Disponible
+
+- **Métrica**: `node_memory_MemAvailable_bytes`
+- **Consulta PromQL (Conversión a GB)**:
+  ```promql
+  node_memory_MemAvailable_bytes / 1024 / 1024 / 1024
