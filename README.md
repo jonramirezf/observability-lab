@@ -39,6 +39,24 @@ Cada laboratorio incluirá:
 - solución aplicada
 - conclusiones
 
-## Estado
+## Estado actual
 
-Actualmente comenzando con fundamentos de observabilidad y análisis básico del sistema Linux.
+El laboratorio ha avanzado desde los fundamentos de Linux
+hasta la implementación de un entorno básico de observabilidad.
+
+### Implementado
+
+- Monitoreo de recursos del sistema Linux.
+- Script de monitoreo con Python y psutil.
+- Contenedores con Docker Compose.
+- Prometheus para recopilar métricas.
+- Node Exporter para obtener métricas del host Linux.
+- Grafana para visualizar métricas del sistema.
+- Primer panel de monitoreo de memoria RAM.
+
+### Próximos pasos
+
+- Mejorar los dashboards de Grafana.
+- Incorporar almacenamiento persistente en Docker.
+- Aprender automatización con GitHub Actions.
+- Incorporar alertas y OpenTelemetry.
